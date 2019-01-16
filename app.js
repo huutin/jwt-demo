@@ -7,4 +7,6 @@ var AuthController = require('./auth/AuthController');
 app.use('/users', UserController);
 app.use('/api/auth', AuthController);
 
+// test
+
 module.exports = app;
