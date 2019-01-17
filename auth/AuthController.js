@@ -7,6 +7,8 @@ var bcrypt = require('bcryptjs');
 var config = require('../config');
 var VerifyToken = require('./VerifyToken');
 
+//test
+
 router.use(bodyParser.urlencoded({ extended: false }));
 router.use(bodyParser.json());
 
